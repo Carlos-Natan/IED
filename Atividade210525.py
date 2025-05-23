@@ -41,4 +41,4 @@ while True:
         break
         
     else:
-        print("\n\033[31;47m\aINAVALIDO.\033[0m\n")
+        print("\n\033[31;48m\aINAVALIDO.\033[0m\n")
