@@ -2,7 +2,7 @@ pilha = []
 fila = []
 
 while True:
-    p1 = input("Informe a posição do usuário: ")
+    p1 = input("informe a posiçao do usuario: ")
     pilha.append(p1)
 
     o = input("\n0. sair\n1. informar dados\n2. mostrar dados\n3. marcar ordem de chegada\nescolha uma opcao: ")
