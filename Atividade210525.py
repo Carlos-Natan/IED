@@ -11,7 +11,7 @@ while True:
         n = input("NOME: ")
         c = input("CIDADE: ")
         t = input("TRABALHO: ")
-        tr = input("ACECO A TRANSPORTE (\033[1;448mSIM/NÃO\033[0m): ")
+        tr = input("ACECO A TRANSPORTE (\033[0m\033[32mSIM\033[0m/\033[31mNÃO\033[0m\033[01m): ")
         
         if tr == "SIM":
             ti = input("TIPO DE TRANSPORTE: ")
@@ -20,12 +20,12 @@ while True:
             ti = input("JUSTIFIQUE: ")
         
         usuario = {
-            "NOME": n,
-            "CIDADE": c,
-            "TRABALHO": t,
-            "TRANSPORTE": tr,
-            "DT": ti, #Dados de Transporte
-            "POSICAO": p1
+            "NOME:": n,
+            "CIDADE:": c,
+            "TRABALHO:": t,
+            "TRANSPORTE:": tr,
+            "DT:": ti, #Dados de Transporte
+            "POSICAO:": p1
         }
         fila.append(usuario)
         
@@ -41,4 +41,4 @@ while True:
         break
         
     else:
-        print("\n\033[31;48m\aINAVALIDO.\033[0m\n")
+        print("\n\033[31;4m\aINAVALIDO.\033[0m\n")
