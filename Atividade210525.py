@@ -11,9 +11,9 @@ while True:
         n = input("NOME: ")
         c = input("CIDADE: ")
         t = input("TRABALHO: ")
-        tr = input("ACECO A TRANSPORTE (\033[0m\033[32mSIM\033[0m/\033[31mNÃO\033[0m\033[01m): ")
+        tr = input("ACECO A TRANSPORTE (\033[0m\033[32mSIM\033[0m/\033[31mNÃO\033[0m\033[01m): ").lower().strip()
         
-        if tr == "SIM":
+        if tr == "sim":
             ti = input("TIPO DE TRANSPORTE: ")
             
         else:
